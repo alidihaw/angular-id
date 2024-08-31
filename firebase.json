@@ -1,0 +1,20 @@
+{
+  "hosting": [
+    {
+      "public": "./dist/angular-dev/browser",
+      "target": "angular-co-id",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.csr.html"
+        }
+      ],
+      "frameworksBackend": {}
+    }
+  ]
+}
