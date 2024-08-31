@@ -10,6 +10,8 @@
 .firebase
 /dist
 /node_modules
+.firebaserc
+.vscode
 # Node
 /node_modules
 npm-debug.log
